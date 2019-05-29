@@ -56,6 +56,32 @@ main article img {
 
 /* Joy's CSS Changes To Here */
 
+.all-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-1, .footer_links {
+  list-style-type:none;
+}
+
+footer {
+border-top: 1px black solid;
+padding: 2px;
+margin-top: 2px;
+margin-bottom: 2px;
+
+}
+
+.foot-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_links {
+text-align: center;
+} 
 
 
 /* media query for mobile */
