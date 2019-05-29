@@ -52,6 +52,19 @@ main article li {
 main article img {
   width:200px;
 }
+.article-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.article-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 /* Joy's CSS Changes From Here */
 
 /* Joy's CSS Changes To Here */
