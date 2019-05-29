@@ -12,6 +12,32 @@ body {
   background: lightblue;
   width: 80%;
   margin: auto;
+  padding:10px; /*create space around container*/
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 a {
+  text-decoration: none; /*remove underline from title*/
+}
+
+header h1 a:visited {
+  color:black;
+}
+
+/* styles header nav inline right */
+.main_links {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* spaces li elements */
+.main_links li {
+  margin-left: 20px;
 }
 
 header h1 {
@@ -56,3 +82,14 @@ margin-bottom: 2px;
 .footer_links {
 text-align: center;
 } 
+
+
+/* media query for mobile */
+
+@media(max-width: 768px) {
+  header {
+    flex-direction:column;
+  }
+}
+
+/* end media query */
