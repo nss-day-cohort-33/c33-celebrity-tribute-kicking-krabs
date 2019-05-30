@@ -1,7 +1,7 @@
-* {
+ * {
   margin:0;
   padding:0;
-}
+} 
 
 body {
   font-size:1.2em;
@@ -91,5 +91,117 @@ text-align: center;
     flex-direction:column;
   }
 }
+
+.film-containers {
+
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+  
+
+  .film > div  {
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 15px
+    
+  
+  }
+  .careerH1{
+    margin-top: 45px;
+    text-align: center;
+  
+    
+  }
+
+  .careerH1 ~ article > p {
+    margin-top: 45px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  
+  
+
+  .skills ~ ul {
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+   
+  }
+  .skills ~ ul > li{
+    flex: 1 0 30%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+
+  .filmHeader {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .residenceHeader {
+
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .residence-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+  .past-container {
+    text-align: center;
+  }
+
+  .current-container {
+    text-align: center;
+  }
+
+  .collab-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .collab-header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+    .awards-container {
+      text-align: center;
+      margin-top: 75px;
+    }
+
+    .nominated-container {
+
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+
+    
+    .won-container {
+      margin-bottom: 60px;
+    }
+
+
 
 /* end media query */
