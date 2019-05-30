@@ -85,6 +85,19 @@ main article img {
 
 /* Joy's CSS Changes From Here */
 
+.willsmithimage { /* Make image a bigger size than the default */
+  width: 349px;
+}
+
+.articleonsumpage { /* Create a flexbox item on the main items on the page */
+  display: flex;
+}
+
+.articleonsumpage div { /* Center the Div */
+  margin:  auto;
+  text-align: center; /* Center everything inside the Divs */
+}
+
 /* Joy's CSS Changes To Here */
 
 .all-footer {
