@@ -28,3 +28,29 @@ figure {
     padding-bottom: 25px;
 
 }
+/* 
+div > img {
+    max-height: auto;
+    width: auto;
+    
+} */
+
+main article img.dh {
+    height: 200px;
+    width: 150px;
+}
+
+.family {
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 45px;
+}
+
+.bel-air {
+    text-align: center;
+}
