@@ -152,7 +152,7 @@ footer {
   flex-flow: row wrap;
   padding: 10px;
   justify-content: space-around;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   margin-top: 10px;
 }
 
@@ -172,6 +172,9 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
+
+
 
 .skills ~ ul {
   display: flex;
@@ -197,6 +200,7 @@ footer {
 .residenceHeader {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 70px;
 }
 
 .residence-container {
@@ -239,5 +243,11 @@ footer {
 .won-container {
   margin-bottom: 60px;
 }
+
+
+
+
+
+
 
 /* end media query */
