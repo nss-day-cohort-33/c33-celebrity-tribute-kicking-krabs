@@ -12,12 +12,12 @@ body {
   background: lightblue;
   width: 80%;
   margin: auto;
-  padding:10px; /*create space around container*/
+  padding:10px; /*create space inside container*/
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*push children far left and right*/
 }
 
 header h1 a {
@@ -35,12 +35,14 @@ header h1 a:visited {
   align-items: center;
 }
 
-/* spaces li elements */
+/* spaces the nav links */
 .main_links li {
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
+/* will smith */
 header h1 {
+  margin-bottom: 10px;
   font-size:3em;
 }
 
@@ -49,9 +51,38 @@ main article li {
   list-style:none;
 }
 
-main article img {
-  width:200px;
+/* padding below h2 */
+main article {
+  padding: 20px 0;
 }
+
+main article img {
+  width: 400px;
+  border-radius:5px;
+  margin-bottom: 10px;
+}
+
+/* main article ul */
+.article-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+/* main article ul li */
+.article-section {
+  margin-top:20px;
+  background: white;
+  border-radius:5px;
+  flex-basis:33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article-section ul {
+  padding: 6px;
+}
+
 /* Joy's CSS Changes From Here */
 
 .willsmithimage { /* Make image a bigger size than the default */
@@ -100,8 +131,20 @@ text-align: center;
 /* media query for mobile */
 
 @media(max-width: 768px) {
+  /* header breaks to column layout and centers */
   header {
     flex-direction:column;
+    text-align:center;
+  }
+
+  main h2,
+  article > p {
+    text-align:center;
+  }
+
+  .main_links {
+    justify-content: center;
+    padding-bottom:20px;
   }
 }
 
