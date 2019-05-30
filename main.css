@@ -1,10 +1,10 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-size:1.2em;
+  font-size: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,12 +25,12 @@ header h1 a {
 }
 
 header h1 a:visited {
-  color:black;
+  color: black;
 }
 
 /* styles header nav inline right */
 .main_links {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
 }
@@ -48,7 +48,7 @@ header h1 {
 
 nav li,
 main article li {
-  list-style:none;
+  list-style: none;
 }
 
 /* padding below h2 */
@@ -105,16 +105,16 @@ main article img {
   justify-content: space-evenly;
 }
 
-.list-1, .footer_links {
-  list-style-type:none;
+.list-1,
+.footer_links {
+  list-style-type: none;
 }
 
 footer {
-border-top: 1px black solid;
-padding: 2px;
-margin-top: 2px;
-margin-bottom: 2px;
-
+  border-top: 1px black solid;
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .foot-left {
@@ -124,9 +124,8 @@ margin-bottom: 2px;
 }
 
 .footer_links {
-text-align: center;
-} 
-
+  text-align: center;
+}
 
 /* media query for mobile */
 
@@ -146,6 +145,99 @@ text-align: center;
     justify-content: center;
     padding-bottom:20px;
   }
+}
+
+.film-containers {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.film > div {
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+.careerH1 {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.careerH1 ~ article > p {
+  margin-top: 45px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-style: italic;
+}
+
+.skills ~ ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+.skills ~ ul > li {
+  flex: 1 0 30%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skills {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.filmHeader {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.residenceHeader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.residence-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.past-container {
+  text-align: center;
+}
+
+.current-container {
+  text-align: center;
+}
+
+.collab-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.collab-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.awards-container {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.nominated-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.won-container {
+  margin-bottom: 60px;
 }
 
 /* end media query */
