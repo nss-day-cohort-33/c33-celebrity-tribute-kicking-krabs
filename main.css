@@ -28,6 +28,11 @@ header h1 a:visited {
   color: black;
 }
 
+h2, h3 {
+  text-align: center;
+  margin: 45px;
+}
+
 /* styles header nav inline right */
 .main_links {
   display: flex;
@@ -61,6 +66,11 @@ main article img {
   border-radius:5px;
   margin-bottom: 10px;
 }
+
+main > p,
+main article > p {
+  text-align:center;
+} 
 
 /* main article ul */
 .article-container {
