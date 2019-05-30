@@ -1,0 +1,30 @@
+
+/* Creates reverse row flexbox for every odd gif and caption combo */
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  flex-basis: 25;
+  align-items: center;
+
+}
+/* Centers Header */
+.header {
+    text-align: center;
+}
+
+/* Padding created to space out pics */
+.fam-pic > li {
+    padding-bottom: 50px;
+}
+
+.immediate {
+    padding-bottom: 25px;
+
+}
